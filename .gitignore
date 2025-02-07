@@ -1,0 +1,64 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+husky-debug.log*
+.log
+
+# Build artifacts
+dist/
+build/
+.cache/
+out/
+.bun/
+
+# Dependency directories
+.bower_components/
+
+# Editor and system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript files
+*.tsbuildinfo
+
+# Jest testing
+coverage/
+jest.cache/
+jest.config.js
+
+# MongoDB
+dump/
+*.seed
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# PM2
+pm2.log
+pm2.pid
+
+# Misc
+*.local
+*.bak
